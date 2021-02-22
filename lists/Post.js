@@ -21,6 +21,7 @@ const postFields = {
         author: {
             type: Relationship,
             ref: 'User',
+            many: false,
             isRequired: true,
         }
     }
