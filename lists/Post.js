@@ -1,4 +1,4 @@
-const { Text, Select, Relationshitp } = require('@keystonejs/fields')
+const { Text, Select, Relationship } = require('@keystonejs/fields')
 
 const postFields = {
     fields: {
@@ -19,7 +19,8 @@ const postFields = {
             defaultValue: 'PUBLISHED'
         },
         author: {
-            type: Text,
+            type: Relationship,
+            ref: 'User',
             isRequired: true,
         }
     }
