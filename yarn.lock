@@ -1732,6 +1732,14 @@
     "@keystonejs/access-control" "^7.0.0"
     express "^4.17.1"
 
+"@keystonejs/auth-password@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@keystonejs/auth-password/-/auth-password-6.0.1.tgz#c2ad59d21f947bc26e0033b2f38964e3a663c740"
+  integrity sha512-ui7PfVZqV2HIPH21n4AsplDfN5DgB3nVl12elC2rCWq7n39jt82D70K2jAqKXaepj78XD1LpyF3rJ8lvgTYDOA==
+  dependencies:
+    "@keystonejs/fields" "^22.0.0"
+    "@keystonejs/session" "^8.1.0"
+
 "@keystonejs/field-views-loader@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@keystonejs/field-views-loader/-/field-views-loader-6.0.1.tgz#d6513fc12c3715501d845ca2fc8b74880fe49db1"
@@ -1860,7 +1868,7 @@
   resolved "https://registry.yarnpkg.com/@keystonejs/server-side-graphql-client/-/server-side-graphql-client-2.0.0.tgz#a0d15410a929c5dc0c29034f642b30830a04ddfe"
   integrity sha512-5RMGD3iB5SDz89lPWmSFEmt9/JC9V6e+IiypRq5IFlOEMgSzB43ZMsR2OS4iersJuDTCHHFZkGsokC4tkdR4Yg==
 
-"@keystonejs/session@^8.1.1", "@keystonejs/session@^8.2.0":
+"@keystonejs/session@^8.1.0", "@keystonejs/session@^8.1.1", "@keystonejs/session@^8.2.0":
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/@keystonejs/session/-/session-8.2.0.tgz#bd835678405b7bbe733a68b7e2d781b6fab73d72"
   integrity sha512-eqflW+98b+jJNVTHNrjxgNtn6f91w/HMJfqUZ8FI6ObetyzjnILnQYRfhr4UzhmP9ehRyTRKuFox4434vByJWA==
